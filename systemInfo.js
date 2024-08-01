@@ -1,6 +1,6 @@
 
-import {getInfoSistema, mostrarInfoSistema} from './osModule.js';
-import {getNetInfo, mostrarInfoNetwork} from './networkModule.js';
+const osModule =  require('./osModule.js');
+const networkModule = require('./networkModule.js');
 
-console.log(osModule(getInfoSistema, mostrarInfoSistema));
-console.log(networkModule(getNetInfo, mostrarInfoNetwork));
+console.log(osModule);
+console.log(networkModule);
